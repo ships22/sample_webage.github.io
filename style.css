@@ -490,7 +490,7 @@ div.contact section.contact_info p {
 }
 section.contact_info section.input_group {
   text-align: center;
-  margin-top: 50px;
+  margin: 50px auto;
 }
 section.contact_info section.input_group input {
   border: 1px solid var(--light-black-50);
@@ -500,4 +500,21 @@ section.contact_info section.input_group button {
   border-radius: 0;
   color: #ffffff;
   background: var(--theme-highlight-100);
+}
+footer {
+  height: 200px;
+  background: var(--accent-100);
+}
+footer ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1200px;
+  padding-top: 50px;
+}
+footer ul li {
+  float: left;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--theme-highlight-100);
 }
