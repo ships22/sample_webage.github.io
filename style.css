@@ -468,3 +468,36 @@ div.meet_up .meet_up_wrapper p {
   margin-top: 40px;
   max-width: 60ch;
 }
+
+/************** contact section *************/
+div.contact {
+  min-height: 50vh;
+}
+div.contact section.contact_info {
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+div.contact section.contact_info h5 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--theme-highlight-100);
+}
+div.contact section.contact_info p {
+  margin-top: 30px;
+  font-size: 1.1rem;
+  color: var(--light-black-50);
+}
+section.contact_info section.input_group {
+  text-align: center;
+  margin-top: 50px;
+}
+section.contact_info section.input_group input {
+  border: 1px solid var(--light-black-50);
+  padding: 10px;
+}
+section.contact_info section.input_group button {
+  border-radius: 0;
+  color: #ffffff;
+  background: var(--theme-highlight-100);
+}
