@@ -391,7 +391,9 @@ div.prj_box p {
 }
 
 /************** our expert section *************/
-
+section.exp_display {
+  padding-bottom: 80px;
+}
 section.exp_display div.exp_box {
   border: 1px solid #d6cfcf;
   border-radius: 24px;
@@ -443,4 +445,26 @@ div.exp_box a {
   text-decoration: none;
   padding: 10px 25px;
   float: right;
+}
+
+/************** meet up section *************/
+div.meet_up {
+  min-height: 100vh;
+  background-color: var(--theme-highlight-100);
+}
+div.meet_up .meet_up_wrapper {
+  max-width: 1200px;
+  margin: auto;
+  color: #ffffff;
+}
+
+div.meet_up .meet_up_wrapper h5 {
+  padding-top: 80px;
+  font-size: 1.8rem;
+}
+
+div.meet_up .meet_up_wrapper p {
+  font-size: 0.8rem;
+  margin-top: 40px;
+  max-width: 60ch;
 }
